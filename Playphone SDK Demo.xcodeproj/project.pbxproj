@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1F5CF81427DFBA00FD55F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CF71427DFBA00FD55F7 /* UIKit.framework */; };
+		9A1F5CFA1427DFBA00FD55F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CF91427DFBA00FD55F7 /* Foundation.framework */; };
+		9A1F5CFC1427DFBA00FD55F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CFB1427DFBA00FD55F7 /* CoreGraphics.framework */; };
+		9A1F5D021427DFBA00FD55F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F5D001427DFBA00FD55F7 /* InfoPlist.strings */; };
+		9A1F5D041427DFBA00FD55F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F5D031427DFBA00FD55F7 /* main.m */; };
+		9A1F5D081427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F5D071427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m */; };
+		9A1F5D0B1427DFBA00FD55F7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F5D091427DFBA00FD55F7 /* MainWindow.xib */; };
+		9A1F5D0E1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F5D0D1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.m */; };
+		9A1F5D111427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F5D0F1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.xib */; };
+		9A1F5D191427DFBB00FD55F7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5D181427DFBB00FD55F7 /* SenTestingKit.framework */; };
+		9A1F5D1A1427DFBB00FD55F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CF71427DFBA00FD55F7 /* UIKit.framework */; };
+		9A1F5D1B1427DFBB00FD55F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CF91427DFBA00FD55F7 /* Foundation.framework */; };
+		9A1F5D1C1427DFBB00FD55F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1F5CFB1427DFBA00FD55F7 /* CoreGraphics.framework */; };
+		9A1F5D241427DFBB00FD55F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F5D221427DFBB00FD55F7 /* InfoPlist.strings */; };
+		9A1F5D261427DFBB00FD55F7 /* Playphone_SDK_DemoTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 9A1F5D251427DFBB00FD55F7 /* Playphone_SDK_DemoTests.h */; };
+		9A1F5D281427DFBB00FD55F7 /* Playphone_SDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1F5D271427DFBB00FD55F7 /* Playphone_SDK_DemoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A1F5D1D1427DFBB00FD55F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A1F5CEA1427DFBA00FD55F7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A1F5CF21427DFBA00FD55F7;
+			remoteInfo = "Playphone SDK Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A1F5CF31427DFBA00FD55F7 /* Playphone SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Playphone SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1F5CF71427DFBA00FD55F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9A1F5CF91427DFBA00FD55F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9A1F5CFB1427DFBA00FD55F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9A1F5CFF1427DFBA00FD55F7 /* Playphone SDK Demo-Info.plist */ = {isa = PBXFileReference; path = "Playphone SDK Demo-Info.plist"; sourceTree = "<group>"; };
+		9A1F5D011427DFBA00FD55F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A1F5D031427DFBA00FD55F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9A1F5D051427DFBA00FD55F7 /* Playphone SDK Demo-Prefix.pch */ = {isa = PBXFileReference; path = "Playphone SDK Demo-Prefix.pch"; sourceTree = "<group>"; };
+		9A1F5D061427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.h */ = {isa = PBXFileReference; path = Playphone_SDK_DemoAppDelegate.h; sourceTree = "<group>"; };
+		9A1F5D071427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playphone_SDK_DemoAppDelegate.m; sourceTree = "<group>"; };
+		9A1F5D0A1427DFBA00FD55F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		9A1F5D0C1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.h */ = {isa = PBXFileReference; path = Playphone_SDK_DemoViewController.h; sourceTree = "<group>"; };
+		9A1F5D0D1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playphone_SDK_DemoViewController.m; sourceTree = "<group>"; };
+		9A1F5D101427DFBA00FD55F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/Playphone_SDK_DemoViewController.xib; sourceTree = "<group>"; };
+		9A1F5D171427DFBB00FD55F7 /* Playphone SDK DemoTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Playphone SDK DemoTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A1F5D181427DFBB00FD55F7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		9A1F5D211427DFBB00FD55F7 /* Playphone SDK DemoTests-Info.plist */ = {isa = PBXFileReference; path = "Playphone SDK DemoTests-Info.plist"; sourceTree = "<group>"; };
+		9A1F5D231427DFBB00FD55F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9A1F5D251427DFBB00FD55F7 /* Playphone_SDK_DemoTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Playphone_SDK_DemoTests.h; sourceTree = "<group>"; };
+		9A1F5D271427DFBB00FD55F7 /* Playphone_SDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Playphone_SDK_DemoTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A1F5CF01427DFBA00FD55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5CF81427DFBA00FD55F7 /* UIKit.framework in Frameworks */,
+				9A1F5CFA1427DFBA00FD55F7 /* Foundation.framework in Frameworks */,
+				9A1F5CFC1427DFBA00FD55F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1F5D131427DFBA00FD55F7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5D191427DFBB00FD55F7 /* SenTestingKit.framework in Frameworks */,
+				9A1F5D1A1427DFBB00FD55F7 /* UIKit.framework in Frameworks */,
+				9A1F5D1B1427DFBB00FD55F7 /* Foundation.framework in Frameworks */,
+				9A1F5D1C1427DFBB00FD55F7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1F5CE81427DFBA00FD55F7 = {
+			isa = PBXGroup;
+			children = (
+				9A1F5CFD1427DFBA00FD55F7 /* Playphone SDK Demo */,
+				9A1F5D1F1427DFBB00FD55F7 /* Playphone SDK DemoTests */,
+				9A1F5CF61427DFBA00FD55F7 /* Frameworks */,
+				9A1F5CF41427DFBA00FD55F7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A1F5CF41427DFBA00FD55F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5CF31427DFBA00FD55F7 /* Playphone SDK Demo.app */,
+				9A1F5D171427DFBB00FD55F7 /* Playphone SDK DemoTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A1F5CF61427DFBA00FD55F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5CF71427DFBA00FD55F7 /* UIKit.framework */,
+				9A1F5CF91427DFBA00FD55F7 /* Foundation.framework */,
+				9A1F5CFB1427DFBA00FD55F7 /* CoreGraphics.framework */,
+				9A1F5D181427DFBB00FD55F7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9A1F5CFD1427DFBA00FD55F7 /* Playphone SDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5D061427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.h */,
+				9A1F5D071427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m */,
+				9A1F5D091427DFBA00FD55F7 /* MainWindow.xib */,
+				9A1F5D0C1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.h */,
+				9A1F5D0D1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.m */,
+				9A1F5D0F1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.xib */,
+				9A1F5CFE1427DFBA00FD55F7 /* Supporting Files */,
+			);
+			path = "Playphone SDK Demo";
+			sourceTree = "<group>";
+		};
+		9A1F5CFE1427DFBA00FD55F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5CFF1427DFBA00FD55F7 /* Playphone SDK Demo-Info.plist */,
+				9A1F5D001427DFBA00FD55F7 /* InfoPlist.strings */,
+				9A1F5D031427DFBA00FD55F7 /* main.m */,
+				9A1F5D051427DFBA00FD55F7 /* Playphone SDK Demo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9A1F5D1F1427DFBB00FD55F7 /* Playphone SDK DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5D251427DFBB00FD55F7 /* Playphone_SDK_DemoTests.h */,
+				9A1F5D271427DFBB00FD55F7 /* Playphone_SDK_DemoTests.m */,
+				9A1F5D201427DFBB00FD55F7 /* Supporting Files */,
+			);
+			path = "Playphone SDK DemoTests";
+			sourceTree = "<group>";
+		};
+		9A1F5D201427DFBB00FD55F7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A1F5D211427DFBB00FD55F7 /* Playphone SDK DemoTests-Info.plist */,
+				9A1F5D221427DFBB00FD55F7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A1F5CF21427DFBA00FD55F7 /* Playphone SDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1F5D2B1427DFBB00FD55F7 /* Build configuration list for PBXNativeTarget "Playphone SDK Demo" */;
+			buildPhases = (
+				9A1F5CEF1427DFBA00FD55F7 /* Sources */,
+				9A1F5CF01427DFBA00FD55F7 /* Frameworks */,
+				9A1F5CF11427DFBA00FD55F7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Playphone SDK Demo";
+			productName = "Playphone SDK Demo";
+			productReference = 9A1F5CF31427DFBA00FD55F7 /* Playphone SDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A1F5D161427DFBA00FD55F7 /* Playphone SDK DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A1F5D2E1427DFBB00FD55F7 /* Build configuration list for PBXNativeTarget "Playphone SDK DemoTests" */;
+			buildPhases = (
+				9A1F5D121427DFBA00FD55F7 /* Sources */,
+				9A1F5D131427DFBA00FD55F7 /* Frameworks */,
+				9A1F5D141427DFBA00FD55F7 /* Resources */,
+				9A1F5D151427DFBA00FD55F7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A1F5D1E1427DFBB00FD55F7 /* PBXTargetDependency */,
+			);
+			name = "Playphone SDK DemoTests";
+			productName = "Playphone SDK DemoTests";
+			productReference = 9A1F5D171427DFBB00FD55F7 /* Playphone SDK DemoTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A1F5CEA1427DFBA00FD55F7 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 9A1F5CED1427DFBA00FD55F7 /* Build configuration list for PBXProject "Playphone SDK Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9A1F5CE81427DFBA00FD55F7;
+			productRefGroup = 9A1F5CF41427DFBA00FD55F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A1F5CF21427DFBA00FD55F7 /* Playphone SDK Demo */,
+				9A1F5D161427DFBA00FD55F7 /* Playphone SDK DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A1F5CF11427DFBA00FD55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5D021427DFBA00FD55F7 /* InfoPlist.strings in Resources */,
+				9A1F5D0B1427DFBA00FD55F7 /* MainWindow.xib in Resources */,
+				9A1F5D111427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1F5D141427DFBA00FD55F7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5D241427DFBB00FD55F7 /* InfoPlist.strings in Resources */,
+				9A1F5D261427DFBB00FD55F7 /* Playphone_SDK_DemoTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A1F5D151427DFBA00FD55F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A1F5CEF1427DFBA00FD55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5D041427DFBA00FD55F7 /* main.m in Sources */,
+				9A1F5D081427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m in Sources */,
+				9A1F5D0E1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A1F5D121427DFBA00FD55F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A1F5D281427DFBB00FD55F7 /* Playphone_SDK_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A1F5D1E1427DFBB00FD55F7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A1F5CF21427DFBA00FD55F7 /* Playphone SDK Demo */;
+			targetProxy = 9A1F5D1D1427DFBB00FD55F7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A1F5D001427DFBA00FD55F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1F5D011427DFBA00FD55F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9A1F5D091427DFBA00FD55F7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1F5D0A1427DFBA00FD55F7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		9A1F5D0F1427DFBA00FD55F7 /* Playphone_SDK_DemoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1F5D101427DFBA00FD55F7 /* en */,
+			);
+			name = Playphone_SDK_DemoViewController.xib;
+			sourceTree = "<group>";
+		};
+		9A1F5D221427DFBB00FD55F7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A1F5D231427DFBB00FD55F7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A1F5D291427DFBB00FD55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9A1F5D2A1427DFBB00FD55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A1F5D2C1427DFBB00FD55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playphone SDK Demo/Playphone SDK Demo-Prefix.pch";
+				INFOPLIST_FILE = "Playphone SDK Demo/Playphone SDK Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9A1F5D2D1427DFBB00FD55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playphone SDK Demo/Playphone SDK Demo-Prefix.pch";
+				INFOPLIST_FILE = "Playphone SDK Demo/Playphone SDK Demo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		9A1F5D2F1427DFBB00FD55F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playphone SDK Demo.app/Playphone SDK Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playphone SDK Demo/Playphone SDK Demo-Prefix.pch";
+				INFOPLIST_FILE = "Playphone SDK DemoTests/Playphone SDK DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		9A1F5D301427DFBB00FD55F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Playphone SDK Demo.app/Playphone SDK Demo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Playphone SDK Demo/Playphone SDK Demo-Prefix.pch";
+				INFOPLIST_FILE = "Playphone SDK DemoTests/Playphone SDK DemoTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A1F5CED1427DFBA00FD55F7 /* Build configuration list for PBXProject "Playphone SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1F5D291427DFBB00FD55F7 /* Debug */,
+				9A1F5D2A1427DFBB00FD55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A1F5D2B1427DFBB00FD55F7 /* Build configuration list for PBXNativeTarget "Playphone SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1F5D2C1427DFBB00FD55F7 /* Debug */,
+				9A1F5D2D1427DFBB00FD55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9A1F5D2E1427DFBB00FD55F7 /* Build configuration list for PBXNativeTarget "Playphone SDK DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A1F5D2F1427DFBB00FD55F7 /* Debug */,
+				9A1F5D301427DFBB00FD55F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A1F5CEA1427DFBA00FD55F7 /* Project object */;
+}
