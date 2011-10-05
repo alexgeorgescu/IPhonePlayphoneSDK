@@ -24,6 +24,8 @@
 		9A56B30F143BAFAC001834AB /* playphone_sdk_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A56B30E143BAFAC001834AB /* playphone_sdk_icon_72.png */; };
 		9A56B313143BC18A001834AB /* PlayphoneSDKUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56B311143BC18A001834AB /* PlayphoneSDKUITableViewController.m */; };
 		9A56B314143BC18A001834AB /* PlayphoneSDKUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A56B312143BC18A001834AB /* PlayphoneSDKUITableViewController.xib */; };
+		9AFA6FB0143CEBA2006628F9 /* CurrentUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */; };
+		9AFA6FB1143CEBA2006628F9 /* CurrentUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,9 @@
 		9A56B310143BC18A001834AB /* PlayphoneSDKUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayphoneSDKUITableViewController.h; sourceTree = "<group>"; };
 		9A56B311143BC18A001834AB /* PlayphoneSDKUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayphoneSDKUITableViewController.m; sourceTree = "<group>"; };
 		9A56B312143BC18A001834AB /* PlayphoneSDKUITableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayphoneSDKUITableViewController.xib; sourceTree = "<group>"; };
+		9AFA6FAD143CEBA2006628F9 /* CurrentUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentUserInfoViewController.h; sourceTree = "<group>"; };
+		9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentUserInfoViewController.m; sourceTree = "<group>"; };
+		9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentUserInfoViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,8 +177,19 @@
 		9A56B349143BE791001834AB /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */,
 			);
 			name = Features;
+			sourceTree = "<group>";
+		};
+		9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA6FAD143CEBA2006628F9 /* CurrentUserInfoViewController.h */,
+				9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */,
+				9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */,
+			);
+			name = CurrentUserInfo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +263,7 @@
 				9A1F5D0B1427DFBA00FD55F7 /* MainWindow.xib in Resources */,
 				9A56B30F143BAFAC001834AB /* playphone_sdk_icon_72.png in Resources */,
 				9A56B314143BC18A001834AB /* PlayphoneSDKUITableViewController.xib in Resources */,
+				9AFA6FB1143CEBA2006628F9 /* CurrentUserInfoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +302,7 @@
 				9A1F5D041427DFBA00FD55F7 /* main.m in Sources */,
 				9A1F5D081427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.m in Sources */,
 				9A56B313143BC18A001834AB /* PlayphoneSDKUITableViewController.m in Sources */,
+				9AFA6FB0143CEBA2006628F9 /* CurrentUserInfoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

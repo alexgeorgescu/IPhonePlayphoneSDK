@@ -7,6 +7,7 @@
 //
 
 #import "PlayphoneSDKUITableViewController.h"
+#import "CurrentUserInfoViewController.h"
 
 @implementation PlayphoneSDKUITableViewController
 
@@ -34,6 +35,8 @@
         [titlesAdvanced addObject:@"        Cloud Storage"];
         [titlesAdvanced addObject:@"        Multiplayer Basics"];
         
+        // Set the title of the nav bar 
+        [[self navigationItem] setTitle:@"Playphone SDK Demo"];
     }
     return self;
 }
@@ -184,6 +187,14 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     // Navigation logic may go here. Create and push another view controller.
+    CurrentUserInfoViewController *currentUserInfoViewController =
+    [[CurrentUserInfoViewController alloc] init];
+    
+    [self.navigationController pushViewController:currentUserInfoViewController animated:YES];
+    [currentUserInfoViewController release];
+    
+    
+    
     /*
      <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
      // ...
