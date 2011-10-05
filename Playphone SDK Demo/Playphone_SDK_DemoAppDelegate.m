@@ -8,7 +8,7 @@
 
 #import "Playphone_SDK_DemoAppDelegate.h"
 
-#import "Playphone_SDK_DemoViewController.h"
+#import "PlayphoneSDKUITableViewController.h"
 
 @implementation Playphone_SDK_DemoAppDelegate
 
@@ -17,11 +17,27 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    _viewController = [[PlayphoneSDKUITableViewController alloc] init];
+    
+    
+    // Create an instance of a UINavigationController
+    // its stack contains only itemsViewController
+    UINavigationController *navController = [[UINavigationController alloc]
+                                             initWithRootViewController:_viewController];
+    
+    // Place navigation controller's view in the window hierarchy
+    [_window setRootViewController:navController];
+    [navController release];
+    
+    
+    [_window makeKeyAndVisible];
+    return YES;    
+    
     // Override point for customization after application launch.
      
-    self.window.rootViewController = self.viewController;
-    [self.window makeKeyAndVisible];
-    return YES;
+    //self.window.rootViewController = self.viewController;
+    //[self.window makeKeyAndVisible];
+    //return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

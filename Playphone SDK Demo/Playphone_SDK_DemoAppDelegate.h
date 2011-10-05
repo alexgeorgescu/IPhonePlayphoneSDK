@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayphoneSDKUITableViewController.h"
+
+
 
 @class Playphone_SDK_DemoViewController;
 
@@ -14,6 +17,6 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet Playphone_SDK_DemoViewController *viewController;
+@property (nonatomic, retain) IBOutlet PlayphoneSDKUITableViewController *viewController;
 
 @end
