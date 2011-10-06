@@ -19,6 +19,22 @@
     return self;
 }
 
+- (id) init
+{
+    self = [super init];
+    
+    // set the title
+    [[self navigationItem] setTitle:@"Current User Info"];
+    
+    // set the back button
+    UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
+	temporaryBarButtonItem.title = @"Back";
+	self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
+	[temporaryBarButtonItem release];
+    
+    return self;
+}
+
 - (void)didReceiveMemoryWarning
 {
     // Releases the view if it doesn't have a superview.

@@ -38,6 +38,13 @@
         // Set the title of the nav bar 
         [[self navigationItem] setTitle:@"Playphone SDK Demo"];
         
+        // Set the back button for getting back here
+        UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
+        temporaryBarButtonItem.title = @"Back";
+        self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
+        [temporaryBarButtonItem release];
+        
+        
     }
     return self;
 }
