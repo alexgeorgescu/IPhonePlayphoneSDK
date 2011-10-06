@@ -37,6 +37,7 @@
         
         // Set the title of the nav bar 
         [[self navigationItem] setTitle:@"Playphone SDK Demo"];
+        
     }
     return self;
 }

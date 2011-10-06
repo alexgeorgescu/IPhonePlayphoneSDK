@@ -8,12 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "PlayphoneSDKUITableViewController.h"
+#import "MNDirect.h"
+#import "MNDirectButton.h"
 
 
 
 @class Playphone_SDK_DemoViewController;
 
-@interface Playphone_SDK_DemoAppDelegate : NSObject <UIApplicationDelegate>
+@interface Playphone_SDK_DemoAppDelegate : NSObject <UIApplicationDelegate,MNDirectDelegate>
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 

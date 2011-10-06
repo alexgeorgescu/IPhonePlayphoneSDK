@@ -7,7 +7,6 @@
 //
 
 #import "Playphone_SDK_DemoAppDelegate.h"
-
 #import "PlayphoneSDKUITableViewController.h"
 
 @implementation Playphone_SDK_DemoAppDelegate
@@ -30,14 +29,28 @@
     [navController release];
     
     
+    // initialize the Playphone SDK
+    [MNDirect prepareSessionWithGameId:10900 gameSecret:@"ae2b10f2-248f58d9-c9654f24-37960337" andDelegate:self];
+    
+    
+    /*
+    // add launch functionality
+    NSURL* url = [launchOptions objectForKey: UIApplicationLaunchOptionsURLKey];
+    
+    if (url != nil) {
+        return [MNDirect handleOpenURL: url];
+    }
+    else {
+        return NO;
+    }*/
+    
+    
+    // add the Playphone Orbit button
+    [MNDirectButton initWithLocation:MNDIRECTBUTTON_TOPRIGHT];
+    [MNDirectButton show];
+    
     [_window makeKeyAndVisible];
     return YES;    
-    
-    // Override point for customization after application launch.
-     
-    //self.window.rootViewController = self.viewController;
-    //[self.window makeKeyAndVisible];
-    //return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
@@ -68,6 +81,10 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+}
+
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url {
+    return [MNDirect handleOpenURL: url];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
