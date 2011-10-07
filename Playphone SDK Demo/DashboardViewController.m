@@ -1,27 +1,20 @@
 //
-//  CurrentUserInfoViewController.m
+//  DashboardViewController.m
 //  Playphone SDK Demo
 //
-//  Created by Alex Georgescu on 10/5/11.
+//  Created by Alex Georgescu on 10/6/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "CurrentUserInfoViewController.h"
+#import "DashboardViewController.h"
 
-@implementation CurrentUserInfoViewController
+@implementation DashboardViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        // set the title
-        [[self navigationItem] setTitle:@"Current User Info"];
-        
-        // set the back button
-        UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
-        temporaryBarButtonItem.title = @"Back";
-        self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
-        [temporaryBarButtonItem release];
+        // Custom initialization
     }
     return self;
 }
@@ -31,7 +24,7 @@
     self = [super init];
     
     // set the title
-    [[self navigationItem] setTitle:@"Current User Info"];
+    [[self navigationItem] setTitle:@"Dashboard"];
     
     // set the back button
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];

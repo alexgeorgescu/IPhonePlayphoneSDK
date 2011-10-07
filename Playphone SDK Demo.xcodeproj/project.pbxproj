@@ -149,6 +149,12 @@
 		9ADE8F83143E4CF4003E7FBF /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADE8F7C143E4C75003E7FBF /* AddressBook.framework */; };
 		9ADE8F84143E4CF7003E7FBF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADE8F7E143E4C7C003E7FBF /* CFNetwork.framework */; };
 		9ADE8F85143E4CF9003E7FBF /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9ADE8F80143E4C82003E7FBF /* StoreKit.framework */; };
+		9ADE8F95143E6A97003E7FBF /* LoginUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8F93143E6A97003E7FBF /* LoginUserViewController.m */; };
+		9ADE8F96143E6A97003E7FBF /* LoginUserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8F94143E6A97003E7FBF /* LoginUserViewController.xib */; };
+		9ADE8F9A143E6B40003E7FBF /* DashboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8F98143E6B40003E7FBF /* DashboardViewController.m */; };
+		9ADE8F9B143E6B40003E7FBF /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8F99143E6B40003E7FBF /* DashboardViewController.xib */; };
+		9ADE8FA4143E6B8F003E7FBF /* VirtualEconomyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */; };
+		9ADE8FA5143E6B8F003E7FBF /* VirtualEconomyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */; };
 		9AFA6FB0143CEBA2006628F9 /* CurrentUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */; };
 		9AFA6FB1143CEBA2006628F9 /* CurrentUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */; };
 /* End PBXBuildFile section */
@@ -429,6 +435,15 @@
 		9ADE8F7C143E4C75003E7FBF /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		9ADE8F7E143E4C7C003E7FBF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		9ADE8F80143E4C82003E7FBF /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		9ADE8F92143E6A97003E7FBF /* LoginUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginUserViewController.h; sourceTree = "<group>"; };
+		9ADE8F93143E6A97003E7FBF /* LoginUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginUserViewController.m; sourceTree = "<group>"; };
+		9ADE8F94143E6A97003E7FBF /* LoginUserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginUserViewController.xib; sourceTree = "<group>"; };
+		9ADE8F97143E6B40003E7FBF /* DashboardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardViewController.h; sourceTree = "<group>"; };
+		9ADE8F98143E6B40003E7FBF /* DashboardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardViewController.m; sourceTree = "<group>"; };
+		9ADE8F99143E6B40003E7FBF /* DashboardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardViewController.xib; sourceTree = "<group>"; };
+		9ADE8FA1143E6B8F003E7FBF /* VirtualEconomyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualEconomyViewController.h; sourceTree = "<group>"; };
+		9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualEconomyViewController.m; sourceTree = "<group>"; };
+		9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VirtualEconomyViewController.xib; sourceTree = "<group>"; };
 		9AFA6FAD143CEBA2006628F9 /* CurrentUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentUserInfoViewController.h; sourceTree = "<group>"; };
 		9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentUserInfoViewController.m; sourceTree = "<group>"; };
 		9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentUserInfoViewController.xib; sourceTree = "<group>"; };
@@ -555,7 +570,8 @@
 		9A56B349143BE791001834AB /* Features */ = {
 			isa = PBXGroup;
 			children = (
-				9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */,
+				9ADE8F90143E69FF003E7FBF /* RequiredIntegration */,
+				9ADE8F91143E6A35003E7FBF /* AdvancedFeatures */,
 			);
 			name = Features;
 			sourceTree = "<group>";
@@ -999,6 +1015,102 @@
 			path = providers;
 			sourceTree = "<group>";
 		};
+		9ADE8F86143E6789003E7FBF /* LoginUser */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE8F92143E6A97003E7FBF /* LoginUserViewController.h */,
+				9ADE8F93143E6A97003E7FBF /* LoginUserViewController.m */,
+				9ADE8F94143E6A97003E7FBF /* LoginUserViewController.xib */,
+			);
+			name = LoginUser;
+			sourceTree = "<group>";
+		};
+		9ADE8F88143E6988003E7FBF /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE8F97143E6B40003E7FBF /* DashboardViewController.h */,
+				9ADE8F98143E6B40003E7FBF /* DashboardViewController.m */,
+				9ADE8F99143E6B40003E7FBF /* DashboardViewController.xib */,
+			);
+			name = Dashboard;
+			sourceTree = "<group>";
+		};
+		9ADE8F89143E6996003E7FBF /* VirtualEconomy */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE8FA1143E6B8F003E7FBF /* VirtualEconomyViewController.h */,
+				9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */,
+				9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */,
+			);
+			name = VirtualEconomy;
+			sourceTree = "<group>";
+		};
+		9ADE8F8A143E69A2003E7FBF /* Leaderboards */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Leaderboards;
+			sourceTree = "<group>";
+		};
+		9ADE8F8B143E69C4003E7FBF /* Achievements */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Achievements;
+			sourceTree = "<group>";
+		};
+		9ADE8F8C143E69CE003E7FBF /* SocialGraph */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = SocialGraph;
+			sourceTree = "<group>";
+		};
+		9ADE8F8D143E69D9003E7FBF /* DashboardControl */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = DashboardControl;
+			sourceTree = "<group>";
+		};
+		9ADE8F8E143E69E2003E7FBF /* CloudStorage */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CloudStorage;
+			sourceTree = "<group>";
+		};
+		9ADE8F8F143E69EB003E7FBF /* MultiplayerBasics */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MultiplayerBasics;
+			sourceTree = "<group>";
+		};
+		9ADE8F90143E69FF003E7FBF /* RequiredIntegration */ = {
+			isa = PBXGroup;
+			children = (
+				9ADE8F86143E6789003E7FBF /* LoginUser */,
+				9ADE8F88143E6988003E7FBF /* Dashboard */,
+				9ADE8F89143E6996003E7FBF /* VirtualEconomy */,
+			);
+			name = RequiredIntegration;
+			sourceTree = "<group>";
+		};
+		9ADE8F91143E6A35003E7FBF /* AdvancedFeatures */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */,
+				9ADE8F8A143E69A2003E7FBF /* Leaderboards */,
+				9ADE8F8B143E69C4003E7FBF /* Achievements */,
+				9ADE8F8C143E69CE003E7FBF /* SocialGraph */,
+				9ADE8F8D143E69D9003E7FBF /* DashboardControl */,
+				9ADE8F8E143E69E2003E7FBF /* CloudStorage */,
+				9ADE8F8F143E69EB003E7FBF /* MultiplayerBasics */,
+			);
+			name = AdvancedFeatures;
+			sourceTree = "<group>";
+		};
 		9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */ = {
 			isa = PBXGroup;
 			children = (
@@ -1090,6 +1202,9 @@
 				9ADE8F68143E4A83003E7FBF /* MNDirectButton.bundle in Resources */,
 				9ADE8F6A143E4A83003E7FBF /* MNDirectPopup.bundle in Resources */,
 				9ADE8F6E143E4A83003E7FBF /* MNScoreProgressView.bundle in Resources */,
+				9ADE8F96143E6A97003E7FBF /* LoginUserViewController.xib in Resources */,
+				9ADE8F9B143E6B40003E7FBF /* DashboardViewController.xib in Resources */,
+				9ADE8FA5143E6B8F003E7FBF /* VirtualEconomyViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1241,6 +1356,9 @@
 				9ADE8F77143E4A83003E7FBF /* MNVShopInAppPurchase.m in Sources */,
 				9ADE8F78143E4A83003E7FBF /* MNVShopProvider.m in Sources */,
 				9ADE8F79143E4A83003E7FBF /* MNVShopWSRequest.m in Sources */,
+				9ADE8F95143E6A97003E7FBF /* LoginUserViewController.m in Sources */,
+				9ADE8F9A143E6B40003E7FBF /* DashboardViewController.m in Sources */,
+				9ADE8FA4143E6B8F003E7FBF /* VirtualEconomyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

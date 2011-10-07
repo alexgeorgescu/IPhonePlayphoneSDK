@@ -87,6 +87,16 @@
     return [MNDirect handleOpenURL: url];
 }
 
+
+- (void)mnDirectSessionStatusChangedTo:(NSUInteger)newStatus{
+    
+    NSLog (@"New status: %d", newStatus);
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"LogInEvent" object:self];
+    
+    
+}
+
+
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     /*

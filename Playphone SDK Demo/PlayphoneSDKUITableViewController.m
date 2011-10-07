@@ -8,6 +8,9 @@
 
 #import "PlayphoneSDKUITableViewController.h"
 #import "CurrentUserInfoViewController.h"
+#import "LoginUserViewController.h"
+#import "DashboardViewController.h"
+#import "VirtualEconomyViewController.h"
 
 @implementation PlayphoneSDKUITableViewController
 
@@ -194,22 +197,51 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    // Navigation logic may go here. Create and push another view controller.
-    CurrentUserInfoViewController *currentUserInfoViewController =
-    [[CurrentUserInfoViewController alloc] init];
+    // Configure the logic for each selection...
+    // This is the required integration
+    if([indexPath section] == 0)
+    {
+        // Show User Login
+        if([indexPath row] == 1)
+        {
+            LoginUserViewController *viewController =
+            [[LoginUserViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show dashboard
+        if([indexPath row] == 2)
+        {
+            DashboardViewController *viewController =
+            [[DashboardViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Virtual Economy
+        if([indexPath row] == 3)
+        {
+            VirtualEconomyViewController *viewController =
+            [[VirtualEconomyViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+
+
+    }
+    // These are the advanced features
+    else
+    {
+        // Navigation logic may go here. Create and push another view controller.
+        CurrentUserInfoViewController *currentUserInfoViewController =
+        [[CurrentUserInfoViewController alloc] init];
+        
+        [self.navigationController pushViewController:currentUserInfoViewController animated:YES];
+        [currentUserInfoViewController release];
+    }
     
-    [self.navigationController pushViewController:currentUserInfoViewController animated:YES];
-    [currentUserInfoViewController release];
-    
-    
-    
-    /*
-     <#DetailViewController#> *detailViewController = [[<#DetailViewController#> alloc] initWithNibName:@"<#Nib name#>" bundle:nil];
-     // ...
-     // Pass the selected object to the new view controller.
-     [self.navigationController pushViewController:detailViewController animated:YES];
-     [detailViewController release];
-     */
 }
 
 @end
