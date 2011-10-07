@@ -7,10 +7,6 @@
 //
 
 #import "PlayphoneSDKUITableViewController.h"
-#import "CurrentUserInfoViewController.h"
-#import "LoginUserViewController.h"
-#import "DashboardViewController.h"
-#import "VirtualEconomyViewController.h"
 
 @implementation PlayphoneSDKUITableViewController
 
@@ -234,12 +230,69 @@
     // These are the advanced features
     else
     {
-        // Navigation logic may go here. Create and push another view controller.
-        CurrentUserInfoViewController *currentUserInfoViewController =
-        [[CurrentUserInfoViewController alloc] init];
-        
-        [self.navigationController pushViewController:currentUserInfoViewController animated:YES];
-        [currentUserInfoViewController release];
+        // Show Current User
+        if([indexPath row] == 1)
+        {
+            CurrentUserInfoViewController *viewController =
+            [[CurrentUserInfoViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Leaderboards
+        if([indexPath row] == 2)
+        {
+            LeaderboardsViewController *viewController =
+            [[LeaderboardsViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Achievements
+        if([indexPath row] == 3)
+        {
+            AchievementsViewController *viewController =
+            [[AchievementsViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Social Graph
+        if([indexPath row] == 4)
+        {
+            SocialGraphViewController *viewController =
+            [[SocialGraphViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Dashboard Control
+        if([indexPath row] == 5)
+        {
+            DashboardControlViewController *viewController =
+            [[DashboardControlViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Cloud Storage
+        if([indexPath row] == 6)
+        {
+            CloudStorageViewController *viewController =
+            [[CloudStorageViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
+        // Show Multiplayer Basics
+        if([indexPath row] == 7)
+        {
+            MultiplayerBasicsViewController *viewController =
+            [[MultiplayerBasicsViewController alloc] init];
+            
+            [self.navigationController pushViewController:viewController animated:YES];
+            [viewController release];
+        }
     }
     
 }

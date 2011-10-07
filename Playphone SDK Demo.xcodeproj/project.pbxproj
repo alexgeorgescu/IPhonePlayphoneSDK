@@ -24,6 +24,18 @@
 		9A56B30F143BAFAC001834AB /* playphone_sdk_icon_72.png in Resources */ = {isa = PBXBuildFile; fileRef = 9A56B30E143BAFAC001834AB /* playphone_sdk_icon_72.png */; };
 		9A56B313143BC18A001834AB /* PlayphoneSDKUITableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A56B311143BC18A001834AB /* PlayphoneSDKUITableViewController.m */; };
 		9A56B314143BC18A001834AB /* PlayphoneSDKUITableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A56B312143BC18A001834AB /* PlayphoneSDKUITableViewController.xib */; };
+		9A6D1469143FB02E005A06EE /* LeaderboardsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1467143FB02E005A06EE /* LeaderboardsViewController.m */; };
+		9A6D146A143FB02E005A06EE /* LeaderboardsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1468143FB02E005A06EE /* LeaderboardsViewController.xib */; };
+		9A6D146F143FB0C4005A06EE /* AchievementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D146D143FB0C4005A06EE /* AchievementsViewController.m */; };
+		9A6D1470143FB0C4005A06EE /* AchievementsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D146E143FB0C4005A06EE /* AchievementsViewController.xib */; };
+		9A6D1475143FB148005A06EE /* SocialGraphViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1473143FB148005A06EE /* SocialGraphViewController.m */; };
+		9A6D1476143FB148005A06EE /* SocialGraphViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1474143FB148005A06EE /* SocialGraphViewController.xib */; };
+		9A6D147A143FB1BA005A06EE /* DashboardControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1478143FB1BA005A06EE /* DashboardControlViewController.m */; };
+		9A6D147B143FB1BA005A06EE /* DashboardControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1479143FB1BA005A06EE /* DashboardControlViewController.xib */; };
+		9A6D147F143FB262005A06EE /* CloudStorageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D147D143FB262005A06EE /* CloudStorageViewController.m */; };
+		9A6D1480143FB262005A06EE /* CloudStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D147E143FB262005A06EE /* CloudStorageViewController.xib */; };
+		9A6D1484143FBBEA005A06EE /* MultiplayerBasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */; };
+		9A6D1485143FBBEA005A06EE /* MultiplayerBasicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */; };
 		9ADE8F01143E4A83003E7FBF /* SmartFoxClient-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */; };
 		9ADE8F02143E4A83003E7FBF /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFF143E4A82003E7FBF /* Facebook.m */; };
 		9ADE8F03143E4A83003E7FBF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8E01143E4A82003E7FBF /* FBDialog.bundle */; };
@@ -191,6 +203,24 @@
 		9A56B310143BC18A001834AB /* PlayphoneSDKUITableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayphoneSDKUITableViewController.h; sourceTree = "<group>"; };
 		9A56B311143BC18A001834AB /* PlayphoneSDKUITableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayphoneSDKUITableViewController.m; sourceTree = "<group>"; };
 		9A56B312143BC18A001834AB /* PlayphoneSDKUITableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayphoneSDKUITableViewController.xib; sourceTree = "<group>"; };
+		9A6D1466143FB02E005A06EE /* LeaderboardsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeaderboardsViewController.h; sourceTree = "<group>"; };
+		9A6D1467143FB02E005A06EE /* LeaderboardsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeaderboardsViewController.m; sourceTree = "<group>"; };
+		9A6D1468143FB02E005A06EE /* LeaderboardsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeaderboardsViewController.xib; sourceTree = "<group>"; };
+		9A6D146C143FB0C4005A06EE /* AchievementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AchievementsViewController.h; sourceTree = "<group>"; };
+		9A6D146D143FB0C4005A06EE /* AchievementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AchievementsViewController.m; sourceTree = "<group>"; };
+		9A6D146E143FB0C4005A06EE /* AchievementsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AchievementsViewController.xib; sourceTree = "<group>"; };
+		9A6D1472143FB148005A06EE /* SocialGraphViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialGraphViewController.h; sourceTree = "<group>"; };
+		9A6D1473143FB148005A06EE /* SocialGraphViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialGraphViewController.m; sourceTree = "<group>"; };
+		9A6D1474143FB148005A06EE /* SocialGraphViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SocialGraphViewController.xib; sourceTree = "<group>"; };
+		9A6D1477143FB1BA005A06EE /* DashboardControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DashboardControlViewController.h; sourceTree = "<group>"; };
+		9A6D1478143FB1BA005A06EE /* DashboardControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DashboardControlViewController.m; sourceTree = "<group>"; };
+		9A6D1479143FB1BA005A06EE /* DashboardControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DashboardControlViewController.xib; sourceTree = "<group>"; };
+		9A6D147C143FB262005A06EE /* CloudStorageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CloudStorageViewController.h; sourceTree = "<group>"; };
+		9A6D147D143FB262005A06EE /* CloudStorageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CloudStorageViewController.m; sourceTree = "<group>"; };
+		9A6D147E143FB262005A06EE /* CloudStorageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CloudStorageViewController.xib; sourceTree = "<group>"; };
+		9A6D1481143FBBEA005A06EE /* MultiplayerBasicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplayerBasicsViewController.h; sourceTree = "<group>"; };
+		9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerBasicsViewController.m; sourceTree = "<group>"; };
+		9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiplayerBasicsViewController.xib; sourceTree = "<group>"; };
 		9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SmartFoxClient-license.txt"; sourceTree = "<group>"; };
 		9ADE8DFE143E4A82003E7FBF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		9ADE8DFF143E4A82003E7FBF /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
@@ -1048,6 +1078,9 @@
 		9ADE8F8A143E69A2003E7FBF /* Leaderboards */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D1466143FB02E005A06EE /* LeaderboardsViewController.h */,
+				9A6D1467143FB02E005A06EE /* LeaderboardsViewController.m */,
+				9A6D1468143FB02E005A06EE /* LeaderboardsViewController.xib */,
 			);
 			name = Leaderboards;
 			sourceTree = "<group>";
@@ -1055,6 +1088,9 @@
 		9ADE8F8B143E69C4003E7FBF /* Achievements */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D146C143FB0C4005A06EE /* AchievementsViewController.h */,
+				9A6D146D143FB0C4005A06EE /* AchievementsViewController.m */,
+				9A6D146E143FB0C4005A06EE /* AchievementsViewController.xib */,
 			);
 			name = Achievements;
 			sourceTree = "<group>";
@@ -1062,6 +1098,9 @@
 		9ADE8F8C143E69CE003E7FBF /* SocialGraph */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D1472143FB148005A06EE /* SocialGraphViewController.h */,
+				9A6D1473143FB148005A06EE /* SocialGraphViewController.m */,
+				9A6D1474143FB148005A06EE /* SocialGraphViewController.xib */,
 			);
 			name = SocialGraph;
 			sourceTree = "<group>";
@@ -1069,6 +1108,9 @@
 		9ADE8F8D143E69D9003E7FBF /* DashboardControl */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D1477143FB1BA005A06EE /* DashboardControlViewController.h */,
+				9A6D1478143FB1BA005A06EE /* DashboardControlViewController.m */,
+				9A6D1479143FB1BA005A06EE /* DashboardControlViewController.xib */,
 			);
 			name = DashboardControl;
 			sourceTree = "<group>";
@@ -1076,6 +1118,9 @@
 		9ADE8F8E143E69E2003E7FBF /* CloudStorage */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D147C143FB262005A06EE /* CloudStorageViewController.h */,
+				9A6D147D143FB262005A06EE /* CloudStorageViewController.m */,
+				9A6D147E143FB262005A06EE /* CloudStorageViewController.xib */,
 			);
 			name = CloudStorage;
 			sourceTree = "<group>";
@@ -1083,6 +1128,9 @@
 		9ADE8F8F143E69EB003E7FBF /* MultiplayerBasics */ = {
 			isa = PBXGroup;
 			children = (
+				9A6D1481143FBBEA005A06EE /* MultiplayerBasicsViewController.h */,
+				9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */,
+				9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */,
 			);
 			name = MultiplayerBasics;
 			sourceTree = "<group>";
@@ -1205,6 +1253,12 @@
 				9ADE8F96143E6A97003E7FBF /* LoginUserViewController.xib in Resources */,
 				9ADE8F9B143E6B40003E7FBF /* DashboardViewController.xib in Resources */,
 				9ADE8FA5143E6B8F003E7FBF /* VirtualEconomyViewController.xib in Resources */,
+				9A6D146A143FB02E005A06EE /* LeaderboardsViewController.xib in Resources */,
+				9A6D1470143FB0C4005A06EE /* AchievementsViewController.xib in Resources */,
+				9A6D1476143FB148005A06EE /* SocialGraphViewController.xib in Resources */,
+				9A6D147B143FB1BA005A06EE /* DashboardControlViewController.xib in Resources */,
+				9A6D1480143FB262005A06EE /* CloudStorageViewController.xib in Resources */,
+				9A6D1485143FBBEA005A06EE /* MultiplayerBasicsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1359,6 +1413,12 @@
 				9ADE8F95143E6A97003E7FBF /* LoginUserViewController.m in Sources */,
 				9ADE8F9A143E6B40003E7FBF /* DashboardViewController.m in Sources */,
 				9ADE8FA4143E6B8F003E7FBF /* VirtualEconomyViewController.m in Sources */,
+				9A6D1469143FB02E005A06EE /* LeaderboardsViewController.m in Sources */,
+				9A6D146F143FB0C4005A06EE /* AchievementsViewController.m in Sources */,
+				9A6D1475143FB148005A06EE /* SocialGraphViewController.m in Sources */,
+				9A6D147A143FB1BA005A06EE /* DashboardControlViewController.m in Sources */,
+				9A6D147F143FB262005A06EE /* CloudStorageViewController.m in Sources */,
+				9A6D1484143FBBEA005A06EE /* MultiplayerBasicsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

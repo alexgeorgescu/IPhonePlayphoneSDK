@@ -7,6 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CurrentUserInfoViewController.h"
+#import "LoginUserViewController.h"
+#import "DashboardViewController.h"
+#import "VirtualEconomyViewController.h"
+#import "LeaderboardsViewController.h"
+#import "AchievementsViewController.h"
+#import "SocialGraphViewController.h"
+#import "DashboardControlViewController.h"
+#import "CloudStorageViewController.h"
+#import "MultiplayerBasicsViewController.h"
 
 
 @interface PlayphoneSDKUITableViewController : UITableViewController
