@@ -64,4 +64,17 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
+
+- (IBAction)onShowLauncherClicked:(id)sender{
+    [MNDirectButton show];       
+}
+
+- (IBAction)onHideLauncherClicked:(id)sender{
+    [MNDirectButton hide];
+}
+
+- (IBAction)onShowDashboardClicked:(id)sender{
+    [MNDirectUIHelper showDashboard];
+}
+
 @end

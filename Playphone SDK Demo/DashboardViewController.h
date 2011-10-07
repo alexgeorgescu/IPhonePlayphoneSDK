@@ -7,7 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNDirectUIHelper.h"
+#import "MNDirectButton.h"
 
 @interface DashboardViewController : UIViewController
+{
+    IBOutlet UIButton *btnShowLauncher;
+    IBOutlet UIButton *btnHideLauncher;
+    IBOutlet UIButton *showDashboard;
+}
+
+-(IBAction)onShowLauncherClicked:(id)sender;
+-(IBAction)onHideLauncherClicked:(id)sender;
+-(IBAction)onShowDashboardClicked:(id)sender;
+
 
 @end
