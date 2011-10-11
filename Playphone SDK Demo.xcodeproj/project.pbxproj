@@ -36,6 +36,7 @@
 		9A6D1480143FB262005A06EE /* CloudStorageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D147E143FB262005A06EE /* CloudStorageViewController.xib */; };
 		9A6D1484143FBBEA005A06EE /* MultiplayerBasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */; };
 		9A6D1485143FBBEA005A06EE /* MultiplayerBasicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */; };
+		9AC7478C1444E34C001D70F1 /* playphoneBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7478B1444E34C001D70F1 /* playphoneBG.png */; };
 		9ADE8F01143E4A83003E7FBF /* SmartFoxClient-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */; };
 		9ADE8F02143E4A83003E7FBF /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFF143E4A82003E7FBF /* Facebook.m */; };
 		9ADE8F03143E4A83003E7FBF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8E01143E4A82003E7FBF /* FBDialog.bundle */; };
@@ -167,6 +168,16 @@
 		9ADE8F9B143E6B40003E7FBF /* DashboardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8F99143E6B40003E7FBF /* DashboardViewController.xib */; };
 		9ADE8FA4143E6B8F003E7FBF /* VirtualEconomyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */; };
 		9ADE8FA5143E6B8F003E7FBF /* VirtualEconomyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */; };
+		9AE8F7471443CE6600157B00 /* VItemsHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8F7451443CE6600157B00 /* VItemsHomeViewController.m */; };
+		9AE8F7481443CE6600157B00 /* VItemsHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8F7461443CE6600157B00 /* VItemsHomeViewController.xib */; };
+		9AE8F74C1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8F74A1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m */; };
+		9AE8F74D1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8F74B1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib */; };
+		9AE8F7511443CEA200157B00 /* UserInventoryHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8F74F1443CEA200157B00 /* UserInventoryHomeViewController.m */; };
+		9AE8F7521443CEA200157B00 /* UserInventoryHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8F7501443CEA200157B00 /* UserInventoryHomeViewController.xib */; };
+		9AE8F7581443D13C00157B00 /* VItemsListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8F7561443D13C00157B00 /* VItemsListViewController.m */; };
+		9AE8F7591443D13C00157B00 /* VItemsListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8F7571443D13C00157B00 /* VItemsListViewController.xib */; };
+		9AE8F75D1443D14F00157B00 /* VCurrenciesListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AE8F75B1443D14F00157B00 /* VCurrenciesListViewController.m */; };
+		9AE8F75E1443D15000157B00 /* VCurrenciesListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AE8F75C1443D14F00157B00 /* VCurrenciesListViewController.xib */; };
 		9AFA6FB0143CEBA2006628F9 /* CurrentUserInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */; };
 		9AFA6FB1143CEBA2006628F9 /* CurrentUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */; };
 /* End PBXBuildFile section */
@@ -221,6 +232,7 @@
 		9A6D1481143FBBEA005A06EE /* MultiplayerBasicsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultiplayerBasicsViewController.h; sourceTree = "<group>"; };
 		9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerBasicsViewController.m; sourceTree = "<group>"; };
 		9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiplayerBasicsViewController.xib; sourceTree = "<group>"; };
+		9AC7478B1444E34C001D70F1 /* playphoneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playphoneBG.png; sourceTree = "<group>"; };
 		9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SmartFoxClient-license.txt"; sourceTree = "<group>"; };
 		9ADE8DFE143E4A82003E7FBF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		9ADE8DFF143E4A82003E7FBF /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
@@ -474,6 +486,21 @@
 		9ADE8FA1143E6B8F003E7FBF /* VirtualEconomyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirtualEconomyViewController.h; sourceTree = "<group>"; };
 		9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirtualEconomyViewController.m; sourceTree = "<group>"; };
 		9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VirtualEconomyViewController.xib; sourceTree = "<group>"; };
+		9AE8F7441443CE6600157B00 /* VItemsHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VItemsHomeViewController.h; sourceTree = "<group>"; };
+		9AE8F7451443CE6600157B00 /* VItemsHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VItemsHomeViewController.m; sourceTree = "<group>"; };
+		9AE8F7461443CE6600157B00 /* VItemsHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VItemsHomeViewController.xib; sourceTree = "<group>"; };
+		9AE8F7491443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayphoneStoreHomeViewContoller.h; sourceTree = "<group>"; };
+		9AE8F74A1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayphoneStoreHomeViewContoller.m; sourceTree = "<group>"; };
+		9AE8F74B1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PlayphoneStoreHomeViewContoller.xib; sourceTree = "<group>"; };
+		9AE8F74E1443CEA200157B00 /* UserInventoryHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserInventoryHomeViewController.h; sourceTree = "<group>"; };
+		9AE8F74F1443CEA200157B00 /* UserInventoryHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserInventoryHomeViewController.m; sourceTree = "<group>"; };
+		9AE8F7501443CEA200157B00 /* UserInventoryHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserInventoryHomeViewController.xib; sourceTree = "<group>"; };
+		9AE8F7551443D13C00157B00 /* VItemsListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VItemsListViewController.h; sourceTree = "<group>"; };
+		9AE8F7561443D13C00157B00 /* VItemsListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VItemsListViewController.m; sourceTree = "<group>"; };
+		9AE8F7571443D13C00157B00 /* VItemsListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VItemsListViewController.xib; sourceTree = "<group>"; };
+		9AE8F75A1443D14F00157B00 /* VCurrenciesListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCurrenciesListViewController.h; sourceTree = "<group>"; };
+		9AE8F75B1443D14F00157B00 /* VCurrenciesListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCurrenciesListViewController.m; sourceTree = "<group>"; };
+		9AE8F75C1443D14F00157B00 /* VCurrenciesListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCurrenciesListViewController.xib; sourceTree = "<group>"; };
 		9AFA6FAD143CEBA2006628F9 /* CurrentUserInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentUserInfoViewController.h; sourceTree = "<group>"; };
 		9AFA6FAE143CEBA2006628F9 /* CurrentUserInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentUserInfoViewController.m; sourceTree = "<group>"; };
 		9AFA6FAF143CEBA2006628F9 /* CurrentUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentUserInfoViewController.xib; sourceTree = "<group>"; };
@@ -547,6 +574,7 @@
 			children = (
 				9ADE8DF8143E4A82003E7FBF /* PlayPhoneMultiNet */,
 				9A56B349143BE791001834AB /* Features */,
+				9AC747891444E301001D70F1 /* backgrounds */,
 				9A56B30C143BAF92001834AB /* icons */,
 				9A1F5CFE1427DFBA00FD55F7 /* Supporting Files */,
 				9A1F5D061427DFBA00FD55F7 /* Playphone_SDK_DemoAppDelegate.h */,
@@ -604,6 +632,14 @@
 				9ADE8F91143E6A35003E7FBF /* AdvancedFeatures */,
 			);
 			name = Features;
+			sourceTree = "<group>";
+		};
+		9AC747891444E301001D70F1 /* backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				9AC7478B1444E34C001D70F1 /* playphoneBG.png */,
+			);
+			name = backgrounds;
 			sourceTree = "<group>";
 		};
 		9ADE8DF8143E4A82003E7FBF /* PlayPhoneMultiNet */ = {
@@ -1068,6 +1104,9 @@
 		9ADE8F89143E6996003E7FBF /* VirtualEconomy */ = {
 			isa = PBXGroup;
 			children = (
+				9AE8F7401443CD5E00157B00 /* VItemsHome */,
+				9AE8F7421443CD8E00157B00 /* PlayphoneStoreHome */,
+				9AE8F7431443CDA200157B00 /* UserInventoryHome */,
 				9ADE8FA1143E6B8F003E7FBF /* VirtualEconomyViewController.h */,
 				9ADE8FA2143E6B8F003E7FBF /* VirtualEconomyViewController.m */,
 				9ADE8FA3143E6B8F003E7FBF /* VirtualEconomyViewController.xib */,
@@ -1157,6 +1196,58 @@
 				9ADE8F8F143E69EB003E7FBF /* MultiplayerBasics */,
 			);
 			name = AdvancedFeatures;
+			sourceTree = "<group>";
+		};
+		9AE8F7401443CD5E00157B00 /* VItemsHome */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8F7531443D0EF00157B00 /* VItemList */,
+				9AE8F7541443D10E00157B00 /* VCurrenciesList */,
+				9AE8F7441443CE6600157B00 /* VItemsHomeViewController.h */,
+				9AE8F7451443CE6600157B00 /* VItemsHomeViewController.m */,
+				9AE8F7461443CE6600157B00 /* VItemsHomeViewController.xib */,
+			);
+			name = VItemsHome;
+			sourceTree = "<group>";
+		};
+		9AE8F7421443CD8E00157B00 /* PlayphoneStoreHome */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8F7491443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.h */,
+				9AE8F74A1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m */,
+				9AE8F74B1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib */,
+			);
+			name = PlayphoneStoreHome;
+			sourceTree = "<group>";
+		};
+		9AE8F7431443CDA200157B00 /* UserInventoryHome */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8F74E1443CEA200157B00 /* UserInventoryHomeViewController.h */,
+				9AE8F74F1443CEA200157B00 /* UserInventoryHomeViewController.m */,
+				9AE8F7501443CEA200157B00 /* UserInventoryHomeViewController.xib */,
+			);
+			name = UserInventoryHome;
+			sourceTree = "<group>";
+		};
+		9AE8F7531443D0EF00157B00 /* VItemList */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8F7551443D13C00157B00 /* VItemsListViewController.h */,
+				9AE8F7561443D13C00157B00 /* VItemsListViewController.m */,
+				9AE8F7571443D13C00157B00 /* VItemsListViewController.xib */,
+			);
+			name = VItemList;
+			sourceTree = "<group>";
+		};
+		9AE8F7541443D10E00157B00 /* VCurrenciesList */ = {
+			isa = PBXGroup;
+			children = (
+				9AE8F75A1443D14F00157B00 /* VCurrenciesListViewController.h */,
+				9AE8F75B1443D14F00157B00 /* VCurrenciesListViewController.m */,
+				9AE8F75C1443D14F00157B00 /* VCurrenciesListViewController.xib */,
+			);
+			name = VCurrenciesList;
 			sourceTree = "<group>";
 		};
 		9AFA6FAC143CEB49006628F9 /* CurrentUserInfo */ = {
@@ -1259,6 +1350,12 @@
 				9A6D147B143FB1BA005A06EE /* DashboardControlViewController.xib in Resources */,
 				9A6D1480143FB262005A06EE /* CloudStorageViewController.xib in Resources */,
 				9A6D1485143FBBEA005A06EE /* MultiplayerBasicsViewController.xib in Resources */,
+				9AE8F7481443CE6600157B00 /* VItemsHomeViewController.xib in Resources */,
+				9AE8F74D1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib in Resources */,
+				9AE8F7521443CEA200157B00 /* UserInventoryHomeViewController.xib in Resources */,
+				9AE8F7591443D13C00157B00 /* VItemsListViewController.xib in Resources */,
+				9AE8F75E1443D15000157B00 /* VCurrenciesListViewController.xib in Resources */,
+				9AC7478C1444E34C001D70F1 /* playphoneBG.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1419,6 +1516,11 @@
 				9A6D147A143FB1BA005A06EE /* DashboardControlViewController.m in Sources */,
 				9A6D147F143FB262005A06EE /* CloudStorageViewController.m in Sources */,
 				9A6D1484143FBBEA005A06EE /* MultiplayerBasicsViewController.m in Sources */,
+				9AE8F7471443CE6600157B00 /* VItemsHomeViewController.m in Sources */,
+				9AE8F74C1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m in Sources */,
+				9AE8F7511443CEA200157B00 /* UserInventoryHomeViewController.m in Sources */,
+				9AE8F7581443D13C00157B00 /* VItemsListViewController.m in Sources */,
+				9AE8F75D1443D14F00157B00 /* VCurrenciesListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

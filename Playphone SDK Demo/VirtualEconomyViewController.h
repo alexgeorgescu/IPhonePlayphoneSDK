@@ -7,7 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VItemsHomeViewController.h"
+#import "PlayphoneStoreHomeViewContoller.h"
+#import "UserInventoryHomeViewController.h"
 
 @interface VirtualEconomyViewController : UIViewController
+
+- (IBAction)gotoVItemsHome:(id)sender;
+- (IBAction)gotoPlayphoneStoreHome:(id)sender;
+- (IBAction)gotoUserInventoryHome:(id)sender;
+
 
 @end

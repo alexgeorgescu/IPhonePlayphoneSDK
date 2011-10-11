@@ -1,14 +1,14 @@
 //
-//  VirtualEconomyViewController.m
+//  VItemsHomeViewController.m
 //  Playphone SDK Demo
 //
-//  Created by Alex Georgescu on 10/6/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by Alex Georgescu on 10/10/11.
+//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "VirtualEconomyViewController.h"
+#import "VItemsHomeViewController.h"
 
-@implementation VirtualEconomyViewController
+@implementation VItemsHomeViewController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -16,22 +16,6 @@
     if (self) {
         // Custom initialization
     }
-    return self;
-}
-
-- (id) init
-{
-    self = [super init];
-    
-    // set the title
-    [[self navigationItem] setTitle:@"Virtual Economy"];
-    
-    // set the back button
-    UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
-	temporaryBarButtonItem.title = @"Back";
-	self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
-	[temporaryBarButtonItem release];
-    
     return self;
 }
 
@@ -64,34 +48,22 @@
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
 }
 
-
-
-- (IBAction)gotoVItemsHome:(id)sender
+- (IBAction)gotoVItemList:(id)sender
 {
-    VItemsHomeViewController *viewController =
-    [[VItemsHomeViewController alloc] init];
+    VItemsListViewController *viewController =
+    [[VItemsListViewController alloc] init];
     
     [self.navigationController pushViewController:viewController animated:YES];
     [viewController release];
 }
 
-- (IBAction)gotoPlayphoneStoreHome:(id)sender
+- (IBAction)gotoVCurrenciesList:(id)sender
 {
-    PlayphoneStoreHomeViewContoller *viewController =
-    [[PlayphoneStoreHomeViewContoller alloc] init];
+    VCurrenciesListViewController *viewController =
+    [[VCurrenciesListViewController alloc] init];
     
     [self.navigationController pushViewController:viewController animated:YES];
     [viewController release];
-}
-
-- (IBAction)gotoUserInventoryHome:(id)sender
-{
-    UserInventoryHomeViewController *viewController =
-    [[UserInventoryHomeViewController alloc] init];
-    
-    [self.navigationController pushViewController:viewController animated:YES];
-    [viewController release];
-    
 }
 
 @end
