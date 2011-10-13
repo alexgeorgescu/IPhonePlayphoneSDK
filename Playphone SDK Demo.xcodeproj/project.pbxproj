@@ -37,6 +37,8 @@
 		9A6D1484143FBBEA005A06EE /* MultiplayerBasicsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */; };
 		9A6D1485143FBBEA005A06EE /* MultiplayerBasicsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */; };
 		9AC7478C1444E34C001D70F1 /* playphoneBG.png in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7478B1444E34C001D70F1 /* playphoneBG.png */; };
+		9AC7479514466B09001D70F1 /* VItemListDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC7479314466B09001D70F1 /* VItemListDetailsController.m */; };
+		9AC7479614466B09001D70F1 /* VItemListDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7479414466B09001D70F1 /* VItemListDetailsController.xib */; };
 		9ADE8F01143E4A83003E7FBF /* SmartFoxClient-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */; };
 		9ADE8F02143E4A83003E7FBF /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFF143E4A82003E7FBF /* Facebook.m */; };
 		9ADE8F03143E4A83003E7FBF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8E01143E4A82003E7FBF /* FBDialog.bundle */; };
@@ -233,6 +235,9 @@
 		9A6D1482143FBBEA005A06EE /* MultiplayerBasicsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultiplayerBasicsViewController.m; sourceTree = "<group>"; };
 		9A6D1483143FBBEA005A06EE /* MultiplayerBasicsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MultiplayerBasicsViewController.xib; sourceTree = "<group>"; };
 		9AC7478B1444E34C001D70F1 /* playphoneBG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playphoneBG.png; sourceTree = "<group>"; };
+		9AC7479214466B09001D70F1 /* VItemListDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VItemListDetailsController.h; sourceTree = "<group>"; };
+		9AC7479314466B09001D70F1 /* VItemListDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VItemListDetailsController.m; sourceTree = "<group>"; };
+		9AC7479414466B09001D70F1 /* VItemListDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VItemListDetailsController.xib; sourceTree = "<group>"; };
 		9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SmartFoxClient-license.txt"; sourceTree = "<group>"; };
 		9ADE8DFE143E4A82003E7FBF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		9ADE8DFF143E4A82003E7FBF /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
@@ -640,6 +645,16 @@
 				9AC7478B1444E34C001D70F1 /* playphoneBG.png */,
 			);
 			name = backgrounds;
+			sourceTree = "<group>";
+		};
+		9AC7479114466AE6001D70F1 /* VItemListDetails */ = {
+			isa = PBXGroup;
+			children = (
+				9AC7479214466B09001D70F1 /* VItemListDetailsController.h */,
+				9AC7479314466B09001D70F1 /* VItemListDetailsController.m */,
+				9AC7479414466B09001D70F1 /* VItemListDetailsController.xib */,
+			);
+			name = VItemListDetails;
 			sourceTree = "<group>";
 		};
 		9ADE8DF8143E4A82003E7FBF /* PlayPhoneMultiNet */ = {
@@ -1233,6 +1248,7 @@
 		9AE8F7531443D0EF00157B00 /* VItemList */ = {
 			isa = PBXGroup;
 			children = (
+				9AC7479114466AE6001D70F1 /* VItemListDetails */,
 				9AE8F7551443D13C00157B00 /* VItemsListViewController.h */,
 				9AE8F7561443D13C00157B00 /* VItemsListViewController.m */,
 				9AE8F7571443D13C00157B00 /* VItemsListViewController.xib */,
@@ -1356,6 +1372,7 @@
 				9AE8F7591443D13C00157B00 /* VItemsListViewController.xib in Resources */,
 				9AE8F75E1443D15000157B00 /* VCurrenciesListViewController.xib in Resources */,
 				9AC7478C1444E34C001D70F1 /* playphoneBG.png in Resources */,
+				9AC7479614466B09001D70F1 /* VItemListDetailsController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1521,6 +1538,7 @@
 				9AE8F7511443CEA200157B00 /* UserInventoryHomeViewController.m in Sources */,
 				9AE8F7581443D13C00157B00 /* VItemsListViewController.m in Sources */,
 				9AE8F75D1443D14F00157B00 /* VCurrenciesListViewController.m in Sources */,
+				9AC7479514466B09001D70F1 /* VItemListDetailsController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNVItemsProvider.h"
+#import "MNDirect.h"
+#import "VItemListDetailsController.h"
 
 @interface VItemsListViewController : UIViewController
+{
+    NSMutableDictionary *dictionaryOfItems;
+}
 
+@property (nonatomic,retain) NSMutableDictionary *dictionaryOfItems;
+
+- (void) buttonPressed: (id) sender;
+    
 @end
