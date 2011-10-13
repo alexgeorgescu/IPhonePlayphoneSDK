@@ -1,8 +1,8 @@
 //
-//  VItemListDetailsController.h
+//  VCurrenciesListDetailsController.h
 //  Playphone SDK Demo
 //
-//  Created by Alex Georgescu on 10/12/11.
+//  Created by Alex Georgescu on 10/13/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
@@ -11,15 +11,13 @@
 #import "MNVItemsProvider.h"
 
 
-@interface VItemListDetailsController : UIViewController
+@interface VCurrenciesListDetailsController : UIViewController
 {
     int itemId;
     MNGameVItemInfo *gameItem;
     IBOutlet UILabel *lblId;
     IBOutlet UILabel *lblName;
     IBOutlet UILabel *lblDescription;
-    IBOutlet UISwitch *chkUnique;
-    IBOutlet UISwitch *chkConsumable;
     IBOutlet UISwitch *chkIssueOnClient;
     IBOutlet UIImageView *image;
     IBOutlet UITextView *attributes;

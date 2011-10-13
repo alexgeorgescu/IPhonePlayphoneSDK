@@ -1,21 +1,21 @@
 //
-//  VItemListDetailsController.m
+//  VCurrenciesListDetailsController.m
 //  Playphone SDK Demo
 //
-//  Created by Alex Georgescu on 10/12/11.
+//  Created by Alex Georgescu on 10/13/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "VItemListDetailsController.h"
+#import "VCurrenciesListDetailsController.h"
 
-@implementation VItemListDetailsController
+@implementation VCurrenciesListDetailsController
 @synthesize itemId;
-
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        // Custom initialization
     }
     return self;
 }
@@ -25,8 +25,6 @@
     [self setItemId:currenItemId];
     return [self init];
 }
-
-
 
 - (void)didReceiveMemoryWarning
 {
@@ -49,20 +47,17 @@
     NSLog(@"VItem ID: %d",[gameItem vItemId]);
     int itemModel = [gameItem model];
     
-
+    
     [lblId setText:[NSString stringWithFormat:@"ID: %d", [gameItem vItemId]]];
     [lblName setText:[NSString stringWithFormat:@"%@", [gameItem name]]];
     [lblDescription setText:[NSString stringWithFormat:@"%@", [gameItem description]]];
     [attributes setText:[NSString stringWithFormat:@"%@", [gameItem params]]];
     // set the flags
-    [chkUnique setOn:(itemModel & 2)];
-    [chkConsumable setOn:(itemModel & 4)];
     [chkIssueOnClient setOn:(itemModel & 512)];
     
-     NSString *urlString = [[[MNDirect vItemsProvider] getVItemImageURL:itemId] description];
-     NSLog(@"URL: %@",urlString);
-     [image setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]]]];
-
+    NSString *urlString = [[[MNDirect vItemsProvider] getVItemImageURL:itemId] description];
+    NSLog(@"URL: %@",urlString);
+    [image setImage:[UIImage imageWithData:[NSData dataWithContentsOfURL:[NSURL URLWithString:urlString]]]];
 }
 
 - (void)viewDidUnload

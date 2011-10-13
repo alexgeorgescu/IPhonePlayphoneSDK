@@ -7,7 +7,17 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNVItemsProvider.h"
+#import "MNDirect.h"
+#import "VCurrenciesListDetailsController.h"
+
 
 @interface VCurrenciesListViewController : UIViewController
+{
+    NSMutableDictionary *dictionaryOfItems;
+}
 
+@property (nonatomic,retain) NSMutableDictionary *dictionaryOfItems;
+
+- (void) buttonPressed: (id) sender;
 @end

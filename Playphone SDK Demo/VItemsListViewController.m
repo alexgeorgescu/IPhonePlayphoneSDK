@@ -24,26 +24,30 @@
         // get all the VItems that are not currencies
         NSArray *items = [[MNDirect vItemsProvider] getGameVItemsList];
         [items retain];
-        NSLog(@"Item list: %@", items.description);
         
+        int vertical_size = 0;
         // create a button for each of them
         for(int i=0;i<[items count];i++)
         {
             // get the game item
             MNGameVItemInfo *gameItem = [items objectAtIndex:i];
             [gameItem retain];
+            int itemModel = [gameItem model];
+            if((itemModel & 1) == 0)
+            {
             // add the item to the dictionary by name
             [[self dictionaryOfItems] setObject:gameItem forKey:gameItem.name];
             //create the button
             UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
             //set the position of the button
-            button.frame = CGRectMake(20, 45 * (i+1), 280, 35);
+            button.frame = CGRectMake(20, 45 * (++vertical_size), 280, 35);
             //set the button's title
             [button setTitle:[gameItem name] forState:UIControlStateNormal];
             //listen for clicks
             [button addTarget:self action:@selector(buttonPressed:)              forControlEvents:UIControlEventTouchUpInside];
             //add the button to the view
             [self.view addSubview:button];
+            }
         }
     }
     return self;
@@ -88,13 +92,12 @@
     NSLog(@"Item: %@", gameItem);
     int itemId = gameItem.vItemId;
     
-    
     VItemListDetailsController *viewController =
-    [[VItemListDetailsController alloc] initWithItemId: itemId];
-    
+       [[VItemListDetailsController alloc] initWithItemId: itemId];
+      
     [self.navigationController pushViewController:viewController animated:YES];
     [viewController release];
-
+    
 }
 
 @end
