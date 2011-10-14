@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MNDirect.h"
+#import "MNSession.h"
 
 @interface CurrentUserInfoViewController : UIViewController
-
+{
+    IBOutlet UILabel *lblUserName;
+    IBOutlet UILabel *lblUserId;
+    IBOutlet UILabel *lblCurrentRoom;
+}
 @end

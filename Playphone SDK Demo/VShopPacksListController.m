@@ -1,14 +1,14 @@
 //
-//  PlayphoneStoreHomeViewContoller.m
+//  VShopPacksListController.m
 //  Playphone SDK Demo
 //
-//  Created by Alex Georgescu on 10/10/11.
+//  Created by Alex Georgescu on 10/13/11.
 //  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
 //
 
-#import "PlayphoneStoreHomeViewContoller.h"
+#import "VShopPacksListController.h"
 
-@implementation PlayphoneStoreHomeViewContoller
+@implementation VShopPacksListController
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -46,15 +46,6 @@
 {
     // Return YES for supported orientations
     return (interfaceOrientation == UIInterfaceOrientationPortrait);
-}
-
-- (IBAction)gotoVShopCategoriesList:(id)sender
-{
-    VShopCategoriesListController *viewController =
-    [[VShopCategoriesListController alloc] init];
-    
-    [self.navigationController pushViewController:viewController animated:YES];
-    [viewController release];
 }
 
 @end

@@ -41,6 +41,10 @@
 		9AC7479614466B09001D70F1 /* VItemListDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7479414466B09001D70F1 /* VItemListDetailsController.xib */; };
 		9AC7479B1447A08A001D70F1 /* VCurrenciesListDetailsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC747991447A08A001D70F1 /* VCurrenciesListDetailsController.m */; };
 		9AC7479C1447A08A001D70F1 /* VCurrenciesListDetailsController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC7479A1447A08A001D70F1 /* VCurrenciesListDetailsController.xib */; };
+		9AC747A31447A764001D70F1 /* VShopCategoriesListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC747A11447A764001D70F1 /* VShopCategoriesListController.m */; };
+		9AC747A41447A764001D70F1 /* VShopCategoriesListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC747A21447A764001D70F1 /* VShopCategoriesListController.xib */; };
+		9AC747A81447AE56001D70F1 /* VShopPacksListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AC747A61447AE56001D70F1 /* VShopPacksListController.m */; };
+		9AC747A91447AE56001D70F1 /* VShopPacksListController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9AC747A71447AE56001D70F1 /* VShopPacksListController.xib */; };
 		9ADE8F01143E4A83003E7FBF /* SmartFoxClient-license.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */; };
 		9ADE8F02143E4A83003E7FBF /* Facebook.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ADE8DFF143E4A82003E7FBF /* Facebook.m */; };
 		9ADE8F03143E4A83003E7FBF /* FBDialog.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9ADE8E01143E4A82003E7FBF /* FBDialog.bundle */; };
@@ -243,6 +247,12 @@
 		9AC747981447A08A001D70F1 /* VCurrenciesListDetailsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCurrenciesListDetailsController.h; sourceTree = "<group>"; };
 		9AC747991447A08A001D70F1 /* VCurrenciesListDetailsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCurrenciesListDetailsController.m; sourceTree = "<group>"; };
 		9AC7479A1447A08A001D70F1 /* VCurrenciesListDetailsController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VCurrenciesListDetailsController.xib; sourceTree = "<group>"; };
+		9AC747A01447A764001D70F1 /* VShopCategoriesListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VShopCategoriesListController.h; sourceTree = "<group>"; };
+		9AC747A11447A764001D70F1 /* VShopCategoriesListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VShopCategoriesListController.m; sourceTree = "<group>"; };
+		9AC747A21447A764001D70F1 /* VShopCategoriesListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VShopCategoriesListController.xib; sourceTree = "<group>"; };
+		9AC747A51447AE56001D70F1 /* VShopPacksListController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VShopPacksListController.h; sourceTree = "<group>"; };
+		9AC747A61447AE56001D70F1 /* VShopPacksListController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VShopPacksListController.m; sourceTree = "<group>"; };
+		9AC747A71447AE56001D70F1 /* VShopPacksListController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VShopPacksListController.xib; sourceTree = "<group>"; };
 		9ADE8DFC143E4A82003E7FBF /* SmartFoxClient-license.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "SmartFoxClient-license.txt"; sourceTree = "<group>"; };
 		9ADE8DFE143E4A82003E7FBF /* Facebook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facebook.h; sourceTree = "<group>"; };
 		9ADE8DFF143E4A82003E7FBF /* Facebook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facebook.m; sourceTree = "<group>"; };
@@ -670,6 +680,33 @@
 				9AC7479A1447A08A001D70F1 /* VCurrenciesListDetailsController.xib */,
 			);
 			name = VCurrenciesListDetails;
+			sourceTree = "<group>";
+		};
+		9AC7479D1447A658001D70F1 /* BuyVShopPacks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BuyVShopPacks;
+			sourceTree = "<group>";
+		};
+		9AC7479E1447A65C001D70F1 /* VShopPacksList */ = {
+			isa = PBXGroup;
+			children = (
+				9AC747A51447AE56001D70F1 /* VShopPacksListController.h */,
+				9AC747A61447AE56001D70F1 /* VShopPacksListController.m */,
+				9AC747A71447AE56001D70F1 /* VShopPacksListController.xib */,
+			);
+			name = VShopPacksList;
+			sourceTree = "<group>";
+		};
+		9AC7479F1447A65F001D70F1 /* VShopCategoriesList */ = {
+			isa = PBXGroup;
+			children = (
+				9AC747A01447A764001D70F1 /* VShopCategoriesListController.h */,
+				9AC747A11447A764001D70F1 /* VShopCategoriesListController.m */,
+				9AC747A21447A764001D70F1 /* VShopCategoriesListController.xib */,
+			);
+			name = VShopCategoriesList;
 			sourceTree = "<group>";
 		};
 		9ADE8DF8143E4A82003E7FBF /* PlayPhoneMultiNet */ = {
@@ -1243,6 +1280,9 @@
 		9AE8F7421443CD8E00157B00 /* PlayphoneStoreHome */ = {
 			isa = PBXGroup;
 			children = (
+				9AC7479F1447A65F001D70F1 /* VShopCategoriesList */,
+				9AC7479E1447A65C001D70F1 /* VShopPacksList */,
+				9AC7479D1447A658001D70F1 /* BuyVShopPacks */,
 				9AE8F7491443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.h */,
 				9AE8F74A1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.m */,
 				9AE8F74B1443CE8E00157B00 /* PlayphoneStoreHomeViewContoller.xib */,
@@ -1390,6 +1430,8 @@
 				9AC7478C1444E34C001D70F1 /* playphoneBG.png in Resources */,
 				9AC7479614466B09001D70F1 /* VItemListDetailsController.xib in Resources */,
 				9AC7479C1447A08A001D70F1 /* VCurrenciesListDetailsController.xib in Resources */,
+				9AC747A41447A764001D70F1 /* VShopCategoriesListController.xib in Resources */,
+				9AC747A91447AE56001D70F1 /* VShopPacksListController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1557,6 +1599,8 @@
 				9AE8F75D1443D14F00157B00 /* VCurrenciesListViewController.m in Sources */,
 				9AC7479514466B09001D70F1 /* VItemListDetailsController.m in Sources */,
 				9AC7479B1447A08A001D70F1 /* VCurrenciesListDetailsController.m in Sources */,
+				9AC747A31447A764001D70F1 /* VShopCategoriesListController.m in Sources */,
+				9AC747A81447AE56001D70F1 /* VShopPacksListController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

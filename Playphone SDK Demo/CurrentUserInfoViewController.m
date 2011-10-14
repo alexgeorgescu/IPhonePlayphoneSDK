@@ -29,16 +29,14 @@
 - (id) init
 {
     self = [super init];
-    
     // set the title
     [[self navigationItem] setTitle:@"Current User Info"];
     
     // set the back button
     UIBarButtonItem *temporaryBarButtonItem = [[UIBarButtonItem alloc] init];
-	temporaryBarButtonItem.title = @"Back";
-	self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
-	[temporaryBarButtonItem release];
-    
+    temporaryBarButtonItem.title = @"Back";
+    self.navigationItem.backBarButtonItem = temporaryBarButtonItem;
+    [temporaryBarButtonItem release];
     return self;
 }
 
@@ -55,7 +53,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    //NSLog(@"%@",[MNDirect getSession]);
+    //NSLog(@"%@",[[MNDirect getSession] getMyUserName]);
+    
+    if([MNDirect getSession] != nil)
+    {
+    [super viewDidLoad];
+    [lblUserId setText:[NSString stringWithFormat:@"User id: %qi",[[MNDirect getSession] getMyUserId]]]; 
+    [lblUserName setText:[NSString stringWithFormat:@"Username: %@",[[MNDirect getSession] getMyUserName]]]; 
+    [lblCurrentRoom setText:[NSString stringWithFormat:@"Current room: %d",[[MNDirect getSession] getCurrentRoomId]]];
+    }
 }
 
 - (void)viewDidUnload

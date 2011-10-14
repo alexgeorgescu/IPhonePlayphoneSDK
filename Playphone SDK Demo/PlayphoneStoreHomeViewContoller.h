@@ -7,7 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "VShopCategoriesListController.h"
 
 @interface PlayphoneStoreHomeViewContoller : UIViewController
+{
+    
+}
+
+- (IBAction)gotoVShopCategoriesList:(id)sender;
 
 @end
